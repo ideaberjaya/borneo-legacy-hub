@@ -123,11 +123,14 @@
   }
 
   body {
-    @apply bg-background text-foreground font-body antialiased;
+    @apply text-black bg-white;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-heading;
+    @apply text-black;
+  }
+  p, span, a, li {
+    @apply text-black;
   }
 }
 
