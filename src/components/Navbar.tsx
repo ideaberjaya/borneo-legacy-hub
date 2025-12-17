@@ -59,7 +59,7 @@ export const Navbar = () => {
           >
             <div className="w-10 h-10 rounded-lg overflow-hidden bg-background flex items-center justify-center border border-border">
               <img
-                scr="assets/logo-ideaborneo.png"
+                scr="assets/logoideaborneo.png"
                 alt="IDEABORNEO"
                 className="w-full h-full object-contain p-1"
                 loading="lazy"
