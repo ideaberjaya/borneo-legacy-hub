@@ -57,8 +57,13 @@ export const Navbar = () => {
             }}
             className="flex items-center gap-2"
           >
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-heading font-bold text-lg">IB</span>
+            <div className="w-10 h-10 rounded-lg overflow-hidden bg-background flex items-center justify-center border border-border">
+              <img
+                scr="assets/Logo-IDEABORNEO.png"
+                alt="IDEABORNEO"
+                className="w-full h-full object-contain p-1"
+                loading="lazy"
+                />
             </div>
             <div className="hidden sm:block">
               <span className="font-heading font-semibold text-lg text-foreground">IDEABORNEO</span>
