@@ -14,7 +14,7 @@ const navItems = [
 const externalLinks = [
   { label: "Rumah Kayu", href: "https://rumahkayu-ideaborneo.com/", external: true },
   { label: "Furnitur", href: "#", external: true, placeholder: true },
-  { label: "Interior", href: "#", external: true, placeholder: true },
+  { label: "RentCar", href: "#", external: true, placeholder: true },
 ];
 
 export const Navbar = () => {
