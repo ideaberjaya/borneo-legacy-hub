@@ -58,11 +58,11 @@ export const Navbar = () => {
             className="flex items-center gap-2"
           >
             <div className="w-10 h-10 rounded-lg overflow-hidden bg-background flex items-center justify-center border border-border">
+              import logo from "@/assets/logoideaborneo.png";
               <img
-                scr="assets/logoideaborneo.png"
+                scr={logo}
                 alt="IDEABORNEO"
                 className="w-full h-full object-contain p-1"
-                loading="lazy"
                 />
             </div>
             <div className="hidden sm:block">
