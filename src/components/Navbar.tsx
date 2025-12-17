@@ -60,9 +60,12 @@ export const Navbar = () => {
           >
             <div className="w-10 h-10 rounded-lg overflow-hidden bg-background flex items-center justify-center border border-border">
               <img
-                scr={logo}
+                scr={logoUrl}
                 alt="IDEABORNEO"
                 className="w-full h-full object-contain p-1"
+                onError={(e) => {
+                  e.currentTarget.style.display = "none";
+                }}
                 />
             </div>
             <div className="hidden sm:block">
