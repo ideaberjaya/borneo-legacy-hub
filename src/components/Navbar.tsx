@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import logoUrl from "../assets/logoideaborneo.png";
+import logo from "@/assets/logoideaborneo.jpg";
 
 const navItems = [
   { label: "Home", href: "#home" },
@@ -60,7 +60,7 @@ export const Navbar = () => {
           >
             <div className="w-10 h-10 rounded-lg overflow-hidden bg-background flex items-center justify-center border border-border">
               <img
-                scr="/assets/logoideaborneo.png"
+                scr="{logo}"
                 alt="IDEABORNEO"
                 className="w-full h-full object-contain p-1"
                 loading="lazy"
