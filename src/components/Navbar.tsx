@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import logo from "@/assets/logoideaborneo.png";
+import logoUrl from "../assets/logoideaborneo.png";
 
 const navItems = [
   { label: "Home", href: "#home" },
