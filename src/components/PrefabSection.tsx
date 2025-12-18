@@ -44,9 +44,9 @@ export const PrefabSection = () => {
               <div className="absolute inset-0 flex items-center justify-center z-10">
                 <div className="text-center">
                   <div className="w-20 h-20 bg-primary/90 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Factory className="w-10 h-10 text-primary-foreground" />
+                    <Factory className="w-10 h-10 text-black" />
                   </div>
-                  <span className="text-lg font-heading font-semibold text-foreground">Prefab System</span>
+                  <span className="text-lg font-heading font-semibold text-white drop-shadow-md">Prefab System</span>
                 </div>
               </div>
               {/* Decorative grid pattern */}
