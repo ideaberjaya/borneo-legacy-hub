@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Factory, Clock, Target, Building2 } from "lucide-react";
+import prefabBg from "@/assets/prefab-system.png";
 
 const benefits = [
   {
@@ -38,7 +39,7 @@ export const PrefabSection = () => {
             className="relative order-2 lg:order-1"
           >
             <div className="aspect-video rounded-2xl shadow-elegant-xl overflow-hidden relative bg-cover bg-center"
-              style={{ backgroundImage: "url(src/assets/prefab-system.png)" }}
+              style={{ backgroundImage: "url(${prefabBg})" }}
               >
               <div className="absolute inset-0 bg-black/35" />
               <div className="absolute inset-0 flex items-center justify-center z-10">
