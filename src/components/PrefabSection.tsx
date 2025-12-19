@@ -37,7 +37,7 @@ export const PrefabSection = () => {
             viewport={{ once: true }}
             className="relative order-2 lg:order-1"
           >
-            <div className="aspect-video rounded-2xl shadow-elegant-xl overflow-hidden relative bg-counter bg-center"
+            <div className="aspect-video rounded-2xl shadow-elegant-xl overflow-hidden relative bg-cover bg-center"
               style={{ backgroundImage: "url(src/assets/prefab-system.png)" }}
               >
               <div className="absolute inset-0 bg-black/35" />
