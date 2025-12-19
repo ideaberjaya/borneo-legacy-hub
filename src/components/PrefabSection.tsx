@@ -40,7 +40,7 @@ export const PrefabSection = () => {
             <div className="aspect-video rounded-2xl shadow-elegant-xl overflow-hidden relative bg-counter bg-center"
               style={{ backgroundImage: "url(src/assets/prefab-system.png)" }}
               >
-              <div className="absolute inset-0 bg-black/55" />
+              <div className="absolute inset-0 bg-black/35" />
               <div className="absolute inset-0 flex items-center justify-center z-10">
                 <div className="text-center">
                   <div className="w-20 h-20 bg-primary/90 rounded-full flex items-center justify-center mx-auto mb-4">
